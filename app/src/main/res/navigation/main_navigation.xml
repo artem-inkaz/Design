@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/fragmentMain">
+
+    <fragment
+        android:id="@+id/fragmentLessons"
+        android:name="ui.smartpro.design.ui.lessons.FragmentLessons"
+        android:label="FragmentLessons" />
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="ui.smartpro.design.ui.main.FragmentMain"
+        android:label="FragmentMain" />
+</navigation>
